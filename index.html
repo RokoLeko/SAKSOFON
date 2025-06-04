@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sviraj saksofon bez muke</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sviraj saksofon bez muke</h1>
+        <p class="description">Odaberi ton i nauči pravilni prstomet!</p>
+    </header>
+
+    <div class="container">
+        <div class="oktava-grupa">
+            
+            <div class="tonovi">
+                <button onclick="prikaziSliku('ais.jpg')">Ais</button>
+                <button onclick="prikaziSliku('h.jpg')">H</button>
+                <button onclick="prikaziSliku('c1.jpg')">C1</button>
+                <button onclick="prikaziSliku('cis1.jpg')">Cis1</button>
+                <button onclick="prikaziSliku('d1.jpg')">D1</button>
+                <button onclick="prikaziSliku('dis1.jpg')">Dis1</button>
+                <button onclick="prikaziSliku('e1.jpg')">E1</button>
+                <button onclick="prikaziSliku('f1.jpg')">F1</button>
+            </div>
+        </div>
+
+        <div class="oktava-grupa">
+            
+            <div class="tonovi">
+                <button onclick="prikaziSliku('fis1.jpg')">Fis1</button>
+                <button onclick="prikaziSliku('g1.jpg')">G1</button>
+                <button onclick="prikaziSliku('gis1.jpg')">Gis1</button>
+                <button onclick="prikaziSliku('a1.jpg')">A1</button>
+                <button onclick="prikaziSliku('ais1.jpg')">Ais1</button>
+                <button onclick="prikaziSliku('h1.jpg')">H1</button>
+                <button onclick="prikaziSliku('c2.jpg')">C2</button>
+                <button onclick="prikaziSliku('cis2.jpg')">Cis2</button>
+            </div>
+        </div>
+
+        <div class="oktava-grupa">
+            
+            <div class="tonovi">
+                <button onclick="prikaziSliku('d2.jpg')">D2</button>
+                <button onclick="prikaziSliku('dis2.jpg')">Dis2</button>
+                <button onclick="prikaziSliku('e2.jpg')">E2</button>
+                <button onclick="prikaziSliku('f2.jpg')">F2</button>
+                <button onclick="prikaziSliku('fis2.jpg')">Fis2</button>
+                <button onclick="prikaziSliku('g2.jpg')">G2</button>
+                <button onclick="prikaziSliku('gis2.jpg')">Gis2</button>
+                <button onclick="prikaziSliku('a2.jpg')">A2</button>
+            </div>
+        </div>
+
+        <div class="oktava-grupa">
+            
+            <div class="tonovi">
+                <button onclick="prikaziSliku('ais2.jpg')">Ais2</button>
+                <button onclick="prikaziSliku('h2.jpg')">H2</button>
+                <button onclick="prikaziSliku('c3.jpg')">C3</button>
+                <button onclick="prikaziSliku('cis3.jpg')">Cis3</button>
+                <button onclick="prikaziSliku('d3.jpg')">D3</button>
+                <button onclick="prikaziSliku('dis3.jpg')">Dis3</button>
+                <button onclick="prikaziSliku('e3.jpg')">E3</button>
+                <button onclick="prikaziSliku('f3.jpg')">F3</button>
+            </div>
+        </div>
+
+        
+        <div id="popup" class="popup">
+            <span class="close" onclick="zatvoriPopup()">×</span>
+            <img id="slikaTona" src="" alt="Prikaz tona">
+            <div id="naziv-tona"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Roko Leko 2.c / travanj 2025.</p>
+        <p>Završni projekt iz izborne informatike</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
